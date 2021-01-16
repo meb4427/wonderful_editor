@@ -1,3 +1,5 @@
 class User < ApplicationRecord
-  has_many :articles, dependent: :destroy
+  has_many :articles
+    :article_likes
+    :article_comments
 end
